@@ -16,10 +16,5 @@ function isHappy(string $num) {
         $sumEnd += $numStr[$i];
         $i -= 1;
     }
-<<<<<<< HEAD
+
     return $sumBegin === $sumEnd;
-=======
-    
-    return $sumBegin === $sumEnd ? true : false;
->>>>>>> 58ee9d01fc9c956bb7d01ac1e046193c1262739c
-}
