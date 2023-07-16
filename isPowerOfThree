@@ -1,0 +1,13 @@
+Реализуйте функцию isPowerOfThree() которая определяет, является ли переданное число натуральной степенью тройки. Например, число 27 – это третья степень (33), а 81 – четвёртая (34).
+
+
+function isPowerOfThree( int $num) {
+    if ( $num === 1 ) return true;
+
+    $res = $num;
+    while ( $res > 3 ) {
+        $res /= 3;
+    }
+
+    return $res === 3 ? true : false;
+}
